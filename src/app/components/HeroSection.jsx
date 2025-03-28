@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 const HeroSection = () => {
+
     return (
         <section>
             <div className="grid grid-cols-1 lg:grid-cols-12">
@@ -13,8 +14,12 @@ const HeroSection = () => {
                         Write Some Stuff about me here
                     </p>
                     <div className='py-2 '>
-                        <button className='px-6 py-3 rounded-full mr-4 bg-[#4F2683] hover:bg-purple-400 text-white'>Email Me</button>
-                        <button className='px-6 py-3 rounded-full  bg-[#4F2683] hover:bg-purple-400 text-white'>Download Resume</button>
+                        <a href="mailto:burleykyle10@gmail.com">
+                            <button className='px-6 py-3 rounded-full mr-4 bg-[#4F2683] hover:bg-purple-400 text-white'>Email Me</button>
+                        </a>
+                        <a href="\files\Kyle_Burley_Software_Developer.pdf" download>
+                            <button className='px-6 py-3 rounded-full  bg-[#4F2683] hover:bg-purple-400 text-white'>Download Resume</button>
+                        </a>                        
                     </div>
                 </div>
                 <div className='col-span-5 place-self-center'>
