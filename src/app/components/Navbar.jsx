@@ -21,7 +21,7 @@ const navLinks = [
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="fixed top-0 left-0 right-0 z-10 h-30 bg-black/80 shadow-md" >
             <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
                 <Image
                     src="/images/TechStack.png"
